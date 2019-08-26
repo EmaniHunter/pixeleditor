@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Pixel Art Editor ♡ </title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <link rel="stylesheet" href="pixel.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta charset="UTF-8"> 
+    </head>
+    <body>
+        <h1>pixls<img src="menu.png"> </h1>
+
+        <h2>grid size</h2>
+        <form id="sizePicker">
+            grid height:
+            <input type="number" id="input_height" name="height" min="1" value="5">
+            grid width:
+            <input type="number" id="input_width" name="width" min="1" value="5">
+            <input type="submit">
+        </form>
+
+        <h2>color</h2>
+        <input type="color" id="colorPicker">
+
+        <table id="pixel_canvas">
+        
+        </table>
+
+        <script src="pixel.js"></script>
+    </body>
+</html>
