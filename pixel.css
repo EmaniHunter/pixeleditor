@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    font-family: Ubuntu;
+    background-color: #7EBC89;
+    color: azure;
+}
+
+h1 {
+    font-family: Ubuntu;
+    font-size: 70px;
+    margin: 0.2em;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: Ubuntu;
+    font-size: 1.25em;
+    color: white;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid white;
+    background-color: #bdbdbd;
+    margin-top: 10px;
+    border-width: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 3em;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 5px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    background-color: #eaeaea;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 16px system-ui;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    font-family: Helvetica;
+}
+
+input[type=color]{
+    -webkit-appearance: square-button;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 50px;
+    height: 30px;
+
+}
+input[type=submit]{
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: #f0e78c;
+    border-radius:5px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 1px 7px 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+}
